@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "C:/Pico/pico-sdk/tools/pioasm")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "C:/Pico/rp2040-freertos-project/build/pioasm")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "C:/Pico/FreeRTOS-Project/build/pioasm")
 
 
 # The C and CXX include file regular expressions for this directory.

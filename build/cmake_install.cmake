@@ -1,4 +1,4 @@
-# Install script for directory: C:/Pico/rp2040-freertos-project
+# Install script for directory: C:/Pico/FreeRTOS-Project
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,9 +39,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Pico/rp2040-freertos-project/build/pico-sdk/cmake_install.cmake")
-  include("C:/Pico/rp2040-freertos-project/build/freertos/cmake_install.cmake")
-  include("C:/Pico/rp2040-freertos-project/build/ProjectFiles/cmake_install.cmake")
+  include("C:/Pico/FreeRTOS-Project/build/pico-sdk/cmake_install.cmake")
+  include("C:/Pico/FreeRTOS-Project/build/freertos/cmake_install.cmake")
+  include("C:/Pico/FreeRTOS-Project/build/ProjectFiles/cmake_install.cmake")
 
 endif()
 
@@ -53,5 +53,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Pico/rp2040-freertos-project/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Pico/FreeRTOS-Project/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

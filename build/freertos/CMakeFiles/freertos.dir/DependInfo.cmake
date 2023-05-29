@@ -8,14 +8,14 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Pico/rp2040-freertos-project/freertos/FreeRTOS-Kernel/event_groups.c" "freertos/CMakeFiles/freertos.dir/FreeRTOS-Kernel/event_groups.c.obj" "gcc" "freertos/CMakeFiles/freertos.dir/FreeRTOS-Kernel/event_groups.c.obj.d"
-  "C:/Pico/rp2040-freertos-project/freertos/FreeRTOS-Kernel/list.c" "freertos/CMakeFiles/freertos.dir/FreeRTOS-Kernel/list.c.obj" "gcc" "freertos/CMakeFiles/freertos.dir/FreeRTOS-Kernel/list.c.obj.d"
-  "C:/Pico/rp2040-freertos-project/freertos/FreeRTOS-Kernel/portable/GCC/ARM_CM0/port.c" "freertos/CMakeFiles/freertos.dir/FreeRTOS-Kernel/portable/GCC/ARM_CM0/port.c.obj" "gcc" "freertos/CMakeFiles/freertos.dir/FreeRTOS-Kernel/portable/GCC/ARM_CM0/port.c.obj.d"
-  "C:/Pico/rp2040-freertos-project/freertos/FreeRTOS-Kernel/portable/MemMang/heap_3.c" "freertos/CMakeFiles/freertos.dir/FreeRTOS-Kernel/portable/MemMang/heap_3.c.obj" "gcc" "freertos/CMakeFiles/freertos.dir/FreeRTOS-Kernel/portable/MemMang/heap_3.c.obj.d"
-  "C:/Pico/rp2040-freertos-project/freertos/FreeRTOS-Kernel/queue.c" "freertos/CMakeFiles/freertos.dir/FreeRTOS-Kernel/queue.c.obj" "gcc" "freertos/CMakeFiles/freertos.dir/FreeRTOS-Kernel/queue.c.obj.d"
-  "C:/Pico/rp2040-freertos-project/freertos/FreeRTOS-Kernel/stream_buffer.c" "freertos/CMakeFiles/freertos.dir/FreeRTOS-Kernel/stream_buffer.c.obj" "gcc" "freertos/CMakeFiles/freertos.dir/FreeRTOS-Kernel/stream_buffer.c.obj.d"
-  "C:/Pico/rp2040-freertos-project/freertos/FreeRTOS-Kernel/tasks.c" "freertos/CMakeFiles/freertos.dir/FreeRTOS-Kernel/tasks.c.obj" "gcc" "freertos/CMakeFiles/freertos.dir/FreeRTOS-Kernel/tasks.c.obj.d"
-  "C:/Pico/rp2040-freertos-project/freertos/FreeRTOS-Kernel/timers.c" "freertos/CMakeFiles/freertos.dir/FreeRTOS-Kernel/timers.c.obj" "gcc" "freertos/CMakeFiles/freertos.dir/FreeRTOS-Kernel/timers.c.obj.d"
+  "C:/Pico/FreeRTOS-Project/freertos/FreeRTOS-Kernel/event_groups.c" "freertos/CMakeFiles/freertos.dir/FreeRTOS-Kernel/event_groups.c.obj" "gcc" "freertos/CMakeFiles/freertos.dir/FreeRTOS-Kernel/event_groups.c.obj.d"
+  "C:/Pico/FreeRTOS-Project/freertos/FreeRTOS-Kernel/list.c" "freertos/CMakeFiles/freertos.dir/FreeRTOS-Kernel/list.c.obj" "gcc" "freertos/CMakeFiles/freertos.dir/FreeRTOS-Kernel/list.c.obj.d"
+  "C:/Pico/FreeRTOS-Project/freertos/FreeRTOS-Kernel/portable/GCC/ARM_CM0/port.c" "freertos/CMakeFiles/freertos.dir/FreeRTOS-Kernel/portable/GCC/ARM_CM0/port.c.obj" "gcc" "freertos/CMakeFiles/freertos.dir/FreeRTOS-Kernel/portable/GCC/ARM_CM0/port.c.obj.d"
+  "C:/Pico/FreeRTOS-Project/freertos/FreeRTOS-Kernel/portable/MemMang/heap_3.c" "freertos/CMakeFiles/freertos.dir/FreeRTOS-Kernel/portable/MemMang/heap_3.c.obj" "gcc" "freertos/CMakeFiles/freertos.dir/FreeRTOS-Kernel/portable/MemMang/heap_3.c.obj.d"
+  "C:/Pico/FreeRTOS-Project/freertos/FreeRTOS-Kernel/queue.c" "freertos/CMakeFiles/freertos.dir/FreeRTOS-Kernel/queue.c.obj" "gcc" "freertos/CMakeFiles/freertos.dir/FreeRTOS-Kernel/queue.c.obj.d"
+  "C:/Pico/FreeRTOS-Project/freertos/FreeRTOS-Kernel/stream_buffer.c" "freertos/CMakeFiles/freertos.dir/FreeRTOS-Kernel/stream_buffer.c.obj" "gcc" "freertos/CMakeFiles/freertos.dir/FreeRTOS-Kernel/stream_buffer.c.obj.d"
+  "C:/Pico/FreeRTOS-Project/freertos/FreeRTOS-Kernel/tasks.c" "freertos/CMakeFiles/freertos.dir/FreeRTOS-Kernel/tasks.c.obj" "gcc" "freertos/CMakeFiles/freertos.dir/FreeRTOS-Kernel/tasks.c.obj.d"
+  "C:/Pico/FreeRTOS-Project/freertos/FreeRTOS-Kernel/timers.c" "freertos/CMakeFiles/freertos.dir/FreeRTOS-Kernel/timers.c.obj" "gcc" "freertos/CMakeFiles/freertos.dir/FreeRTOS-Kernel/timers.c.obj.d"
   )
 
 # Targets to which this target links.

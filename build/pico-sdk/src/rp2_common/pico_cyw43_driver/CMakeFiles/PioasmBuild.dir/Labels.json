@@ -2,34 +2,34 @@
 	"sources" : 
 	[
 		{
-			"file" : "C:/Pico/rp2040-freertos-project/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild"
+			"file" : "C:/Pico/FreeRTOS-Project/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild"
 		},
 		{
-			"file" : "C:/Pico/rp2040-freertos-project/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild.rule"
+			"file" : "C:/Pico/FreeRTOS-Project/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild.rule"
 		},
 		{
-			"file" : "C:/Pico/rp2040-freertos-project/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild-complete.rule"
+			"file" : "C:/Pico/FreeRTOS-Project/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild-complete.rule"
 		},
 		{
-			"file" : "C:/Pico/rp2040-freertos-project/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-build.rule"
+			"file" : "C:/Pico/FreeRTOS-Project/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-build.rule"
 		},
 		{
-			"file" : "C:/Pico/rp2040-freertos-project/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure.rule"
+			"file" : "C:/Pico/FreeRTOS-Project/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure.rule"
 		},
 		{
-			"file" : "C:/Pico/rp2040-freertos-project/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-download.rule"
+			"file" : "C:/Pico/FreeRTOS-Project/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-download.rule"
 		},
 		{
-			"file" : "C:/Pico/rp2040-freertos-project/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-install.rule"
+			"file" : "C:/Pico/FreeRTOS-Project/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-install.rule"
 		},
 		{
-			"file" : "C:/Pico/rp2040-freertos-project/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-mkdir.rule"
+			"file" : "C:/Pico/FreeRTOS-Project/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-mkdir.rule"
 		},
 		{
-			"file" : "C:/Pico/rp2040-freertos-project/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-patch.rule"
+			"file" : "C:/Pico/FreeRTOS-Project/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-patch.rule"
 		},
 		{
-			"file" : "C:/Pico/rp2040-freertos-project/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-update.rule"
+			"file" : "C:/Pico/FreeRTOS-Project/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-update.rule"
 		}
 	],
 	"target" : 

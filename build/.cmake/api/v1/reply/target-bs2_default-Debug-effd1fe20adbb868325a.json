@@ -131,7 +131,7 @@
 				},
 				{
 					"backtrace" : 8,
-					"path" : "C:/Pico/rp2040-freertos-project/build/generated/pico_base"
+					"path" : "C:/Pico/FreeRTOS-Project/build/generated/pico_base"
 				},
 				{
 					"backtrace" : 8,

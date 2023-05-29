@@ -1,6 +1,6 @@
 ProjectFiles\CMakeFiles\rp2040-freertos-project.dir\main.c.obj: \
- C:\Pico\rp2040-freertos-project\ProjectFiles\main.c \
- C:\Pico\rp2040-freertos-project\freertos\FreeRTOS-Kernel\include/FreeRTOS.h \
+ C:\Pico\FreeRTOS-Project\ProjectFiles\main.c \
+ C:\Pico\FreeRTOS-Project\freertos\FreeRTOS-Kernel\include/FreeRTOS.h \
  c:\progra~2\gnuarm~1\102021~1.10\lib\gcc\arm-none-eabi\10.3.1\include\stddef.h \
  c:\progra~2\gnuarm~1\102021~1.10\lib\gcc\arm-none-eabi\10.3.1\include\stdint.h \
  c:\progra~2\gnuarm~1\102021~1.10\arm-none-eabi\include\stdint.h \
@@ -9,14 +9,14 @@ ProjectFiles\CMakeFiles\rp2040-freertos-project.dir\main.c.obj: \
  c:\progra~2\gnuarm~1\102021~1.10\arm-none-eabi\include\_newlib_version.h \
  c:\progra~2\gnuarm~1\102021~1.10\arm-none-eabi\include\sys\_intsup.h \
  c:\progra~2\gnuarm~1\102021~1.10\arm-none-eabi\include\sys\_stdint.h \
- c:\pico\rp2040-freertos-project\freertos\freertosconfig.h \
- C:\Pico\rp2040-freertos-project\freertos\FreeRTOS-Kernel\include/projdefs.h \
- C:\Pico\rp2040-freertos-project\freertos\FreeRTOS-Kernel\include/portable.h \
- C:\Pico\rp2040-freertos-project\freertos\FreeRTOS-Kernel\include/deprecated_definitions.h \
- C:\Pico\rp2040-freertos-project\freertos\FreeRTOS-Kernel\portable\GCC\ARM_CM0/portmacro.h \
- C:\Pico\rp2040-freertos-project\freertos\FreeRTOS-Kernel\include/mpu_wrappers.h \
- C:\Pico\rp2040-freertos-project\freertos\FreeRTOS-Kernel\include/task.h \
- C:\Pico\rp2040-freertos-project\freertos\FreeRTOS-Kernel\include/list.h \
+ c:\pico\freertos-project\freertos\freertosconfig.h \
+ C:\Pico\FreeRTOS-Project\freertos\FreeRTOS-Kernel\include/projdefs.h \
+ C:\Pico\FreeRTOS-Project\freertos\FreeRTOS-Kernel\include/portable.h \
+ C:\Pico\FreeRTOS-Project\freertos\FreeRTOS-Kernel\include/deprecated_definitions.h \
+ C:\Pico\FreeRTOS-Project\freertos\FreeRTOS-Kernel\portable\GCC\ARM_CM0/portmacro.h \
+ C:\Pico\FreeRTOS-Project\freertos\FreeRTOS-Kernel\include/mpu_wrappers.h \
+ C:\Pico\FreeRTOS-Project\freertos\FreeRTOS-Kernel\include/task.h \
+ C:\Pico\FreeRTOS-Project\freertos\FreeRTOS-Kernel\include/list.h \
  c:\progra~2\gnuarm~1\102021~1.10\arm-none-eabi\include\stdio.h \
  c:\progra~2\gnuarm~1\102021~1.10\arm-none-eabi\include\_ansi.h \
  c:\progra~2\gnuarm~1\102021~1.10\arm-none-eabi\include\newlib.h \
@@ -41,17 +41,15 @@ ProjectFiles\CMakeFiles\rp2040-freertos-project.dir\main.c.obj: \
  c:\progra~2\gnuarm~1\102021~1.10\arm-none-eabi\include\sys\sched.h \
  c:\progra~2\gnuarm~1\102021~1.10\arm-none-eabi\include\machine\types.h \
  c:\progra~2\gnuarm~1\102021~1.10\arm-none-eabi\include\sys\stdio.h \
- C:\Pico\rp2040-freertos-project\freertos\FreeRTOS-Kernel\include/queue.h \
- C:\Pico\rp2040-freertos-project\freertos\FreeRTOS-Kernel\include/task.h \
  C:\Pico\pico-sdk\src\common\pico_stdlib\include/pico/stdlib.h \
  C:\Pico\pico-sdk\src\common\pico_base\include/pico.h \
  C:\Pico\pico-sdk\src\common\pico_base\include/pico/types.h \
  C:\Pico\pico-sdk\src\common\pico_base\include/pico/assert.h \
  c:\progra~2\gnuarm~1\102021~1.10\lib\gcc\arm-none-eabi\10.3.1\include\stdbool.h \
  c:\progra~2\gnuarm~1\102021~1.10\arm-none-eabi\include\assert.h \
- C:\Pico\rp2040-freertos-project\build\generated\pico_base/pico/version.h \
+ C:\Pico\FreeRTOS-Project\build\generated\pico_base/pico/version.h \
  C:\Pico\pico-sdk\src\common\pico_base\include/pico/config.h \
- C:\Pico\rp2040-freertos-project\build\generated\pico_base/pico/config_autogen.h \
+ C:\Pico\FreeRTOS-Project\build\generated\pico_base/pico/config_autogen.h \
  C:/Pico/pico-sdk/src/boards/include/boards/pico.h \
  C:/Pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
  C:\Pico\pico-sdk\src\rp2_common\pico_platform\include/pico/platform.h \
@@ -80,4 +78,7 @@ ProjectFiles\CMakeFiles\rp2040-freertos-project.dir\main.c.obj: \
  C:\Pico\pico-sdk\src\rp2040\hardware_structs\include/hardware/structs/uart.h \
  C:\Pico\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/uart.h \
  C:\Pico\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/dreq.h \
- C:\Pico\pico-sdk\src\rp2_common\pico_stdio_uart\include/pico/stdio_uart.h
+ C:\Pico\pico-sdk\src\rp2_common\pico_stdio_uart\include/pico/stdio_uart.h \
+ C:\Pico\pico-sdk\src\rp2_common\hardware_adc\include/hardware/adc.h \
+ C:\Pico\pico-sdk\src\rp2040\hardware_structs\include/hardware/structs/adc.h \
+ C:\Pico\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/adc.h

@@ -8,17 +8,17 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_ASM
-  "C:/Pico/pico-sdk/src/rp2_common/hardware_divider/divider.S" "C:/Pico/rp2040-freertos-project/build/ProjectFiles/CMakeFiles/rp2040-freertos-project.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
-  "C:/Pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S" "C:/Pico/rp2040-freertos-project/build/ProjectFiles/CMakeFiles/rp2040-freertos-project.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
-  "C:/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S" "C:/Pico/rp2040-freertos-project/build/ProjectFiles/CMakeFiles/rp2040-freertos-project.dir/C_/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
-  "C:/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S" "C:/Pico/rp2040-freertos-project/build/ProjectFiles/CMakeFiles/rp2040-freertos-project.dir/C_/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj"
-  "C:/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S" "C:/Pico/rp2040-freertos-project/build/ProjectFiles/CMakeFiles/rp2040-freertos-project.dir/C_/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj"
-  "C:/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S" "C:/Pico/rp2040-freertos-project/build/ProjectFiles/CMakeFiles/rp2040-freertos-project.dir/C_/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj"
-  "C:/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S" "C:/Pico/rp2040-freertos-project/build/ProjectFiles/CMakeFiles/rp2040-freertos-project.dir/C_/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj"
-  "C:/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S" "C:/Pico/rp2040-freertos-project/build/ProjectFiles/CMakeFiles/rp2040-freertos-project.dir/C_/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj"
-  "C:/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S" "C:/Pico/rp2040-freertos-project/build/ProjectFiles/CMakeFiles/rp2040-freertos-project.dir/C_/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
-  "C:/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S" "C:/Pico/rp2040-freertos-project/build/ProjectFiles/CMakeFiles/rp2040-freertos-project.dir/C_/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
-  "C:/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S" "C:/Pico/rp2040-freertos-project/build/ProjectFiles/CMakeFiles/rp2040-freertos-project.dir/C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
+  "C:/Pico/pico-sdk/src/rp2_common/hardware_divider/divider.S" "C:/Pico/FreeRTOS-Project/build/ProjectFiles/CMakeFiles/rp2040-freertos-project.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
+  "C:/Pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S" "C:/Pico/FreeRTOS-Project/build/ProjectFiles/CMakeFiles/rp2040-freertos-project.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
+  "C:/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S" "C:/Pico/FreeRTOS-Project/build/ProjectFiles/CMakeFiles/rp2040-freertos-project.dir/C_/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
+  "C:/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S" "C:/Pico/FreeRTOS-Project/build/ProjectFiles/CMakeFiles/rp2040-freertos-project.dir/C_/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj"
+  "C:/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S" "C:/Pico/FreeRTOS-Project/build/ProjectFiles/CMakeFiles/rp2040-freertos-project.dir/C_/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj"
+  "C:/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S" "C:/Pico/FreeRTOS-Project/build/ProjectFiles/CMakeFiles/rp2040-freertos-project.dir/C_/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj"
+  "C:/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S" "C:/Pico/FreeRTOS-Project/build/ProjectFiles/CMakeFiles/rp2040-freertos-project.dir/C_/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj"
+  "C:/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S" "C:/Pico/FreeRTOS-Project/build/ProjectFiles/CMakeFiles/rp2040-freertos-project.dir/C_/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj"
+  "C:/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S" "C:/Pico/FreeRTOS-Project/build/ProjectFiles/CMakeFiles/rp2040-freertos-project.dir/C_/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
+  "C:/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S" "C:/Pico/FreeRTOS-Project/build/ProjectFiles/CMakeFiles/rp2040-freertos-project.dir/C_/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
+  "C:/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S" "C:/Pico/FreeRTOS-Project/build/ProjectFiles/CMakeFiles/rp2040-freertos-project.dir/C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
   )
 
 # Preprocessor definitions for this target.
@@ -102,9 +102,9 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "C:/Pico/pico-sdk/src/rp2_common/pico_int64_ops/include"
   "C:/Pico/pico-sdk/src/rp2_common/pico_mem_ops/include"
   "C:/Pico/pico-sdk/src/rp2_common/boot_stage2/include"
-  "C:/Pico/rp2040-freertos-project/freertos/."
-  "C:/Pico/rp2040-freertos-project/freertos/FreeRTOS-Kernel/include"
-  "C:/Pico/rp2040-freertos-project/freertos/FreeRTOS-Kernel/portable/GCC/ARM_CM0"
+  "C:/Pico/FreeRTOS-Project/freertos/."
+  "C:/Pico/FreeRTOS-Project/freertos/FreeRTOS-Kernel/include"
+  "C:/Pico/FreeRTOS-Project/freertos/FreeRTOS-Kernel/portable/GCC/ARM_CM0"
   "C:/Pico/pico-sdk/src/rp2_common/hardware_adc/include"
   )
 
@@ -144,13 +144,13 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c" "ProjectFiles/CMakeFiles/rp2040-freertos-project.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj" "gcc" "ProjectFiles/CMakeFiles/rp2040-freertos-project.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj.d"
   "C:/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c" "ProjectFiles/CMakeFiles/rp2040-freertos-project.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj" "gcc" "ProjectFiles/CMakeFiles/rp2040-freertos-project.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj.d"
   "C:/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c" "ProjectFiles/CMakeFiles/rp2040-freertos-project.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" "gcc" "ProjectFiles/CMakeFiles/rp2040-freertos-project.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj.d"
-  "C:/Pico/rp2040-freertos-project/ProjectFiles/main.c" "ProjectFiles/CMakeFiles/rp2040-freertos-project.dir/main.c.obj" "gcc" "ProjectFiles/CMakeFiles/rp2040-freertos-project.dir/main.c.obj.d"
+  "C:/Pico/FreeRTOS-Project/ProjectFiles/main.c" "ProjectFiles/CMakeFiles/rp2040-freertos-project.dir/main.c.obj" "gcc" "ProjectFiles/CMakeFiles/rp2040-freertos-project.dir/main.c.obj.d"
   "C:/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp" "ProjectFiles/CMakeFiles/rp2040-freertos-project.dir/C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj" "gcc" "ProjectFiles/CMakeFiles/rp2040-freertos-project.dir/C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "C:/Pico/rp2040-freertos-project/build/freertos/CMakeFiles/freertos.dir/DependInfo.cmake"
+  "C:/Pico/FreeRTOS-Project/build/freertos/CMakeFiles/freertos.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

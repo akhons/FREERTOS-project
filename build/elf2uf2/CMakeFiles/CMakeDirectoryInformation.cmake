@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "C:/Pico/pico-sdk/tools/elf2uf2")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "C:/Pico/rp2040-freertos-project/build/elf2uf2")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "C:/Pico/FreeRTOS-Project/build/elf2uf2")
 
 
 # The C and CXX include file regular expressions for this directory.

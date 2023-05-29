@@ -46,10 +46,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Pico\rp2040-freertos-project
+CMAKE_SOURCE_DIR = C:\Pico\FreeRTOS-Project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Pico\rp2040-freertos-project\build
+CMAKE_BINARY_DIR = C:\Pico\FreeRTOS-Project\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -76,9 +76,9 @@ rebuild_cache\fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Pico\rp2040-freertos-project\build\CMakeFiles C:\Pico\rp2040-freertos-project\build\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Pico\FreeRTOS-Project\build\CMakeFiles C:\Pico\FreeRTOS-Project\build\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Pico\rp2040-freertos-project\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Pico\FreeRTOS-Project\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target

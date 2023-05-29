@@ -1,5 +1,5 @@
 freertos\CMakeFiles\freertos.dir\FreeRTOS-Kernel\tasks.c.obj: \
- C:\Pico\rp2040-freertos-project\freertos\FreeRTOS-Kernel\tasks.c \
+ C:\Pico\FreeRTOS-Project\freertos\FreeRTOS-Kernel\tasks.c \
  c:\progra~2\gnuarm~1\102021~1.10\arm-none-eabi\include\stdlib.h \
  c:\progra~2\gnuarm~1\102021~1.10\arm-none-eabi\include\machine\ieeefp.h \
  c:\progra~2\gnuarm~1\102021~1.10\arm-none-eabi\include\_ansi.h \
@@ -21,19 +21,19 @@ freertos\CMakeFiles\freertos.dir\FreeRTOS-Kernel\tasks.c.obj: \
  c:\progra~2\gnuarm~1\102021~1.10\arm-none-eabi\include\sys\_locale.h \
  c:\progra~2\gnuarm~1\102021~1.10\arm-none-eabi\include\strings.h \
  c:\progra~2\gnuarm~1\102021~1.10\arm-none-eabi\include\sys\string.h \
- C:\Pico\rp2040-freertos-project\freertos\FreeRTOS-Kernel\include/FreeRTOS.h \
+ C:\Pico\FreeRTOS-Project\freertos\FreeRTOS-Kernel\include/FreeRTOS.h \
  c:\progra~2\gnuarm~1\102021~1.10\lib\gcc\arm-none-eabi\10.3.1\include\stdint.h \
  c:\progra~2\gnuarm~1\102021~1.10\arm-none-eabi\include\stdint.h \
  c:\progra~2\gnuarm~1\102021~1.10\arm-none-eabi\include\sys\_intsup.h \
  c:\progra~2\gnuarm~1\102021~1.10\arm-none-eabi\include\sys\_stdint.h \
- c:\pico\rp2040-freertos-project\freertos\freertosconfig.h \
- C:\Pico\rp2040-freertos-project\freertos\FreeRTOS-Kernel\include/projdefs.h \
- C:\Pico\rp2040-freertos-project\freertos\FreeRTOS-Kernel\include/portable.h \
- C:\Pico\rp2040-freertos-project\freertos\FreeRTOS-Kernel\include/deprecated_definitions.h \
- C:\Pico\rp2040-freertos-project\freertos\FreeRTOS-Kernel\portable\GCC\ARM_CM0/portmacro.h \
- C:\Pico\rp2040-freertos-project\freertos\FreeRTOS-Kernel\include/mpu_wrappers.h \
- C:\Pico\rp2040-freertos-project\freertos\FreeRTOS-Kernel\include/task.h \
- C:\Pico\rp2040-freertos-project\freertos\FreeRTOS-Kernel\include/list.h \
- C:\Pico\rp2040-freertos-project\freertos\FreeRTOS-Kernel\include/timers.h \
- C:\Pico\rp2040-freertos-project\freertos\FreeRTOS-Kernel\include/task.h \
- C:\Pico\rp2040-freertos-project\freertos\FreeRTOS-Kernel\include/stack_macros.h
+ c:\pico\freertos-project\freertos\freertosconfig.h \
+ C:\Pico\FreeRTOS-Project\freertos\FreeRTOS-Kernel\include/projdefs.h \
+ C:\Pico\FreeRTOS-Project\freertos\FreeRTOS-Kernel\include/portable.h \
+ C:\Pico\FreeRTOS-Project\freertos\FreeRTOS-Kernel\include/deprecated_definitions.h \
+ C:\Pico\FreeRTOS-Project\freertos\FreeRTOS-Kernel\portable\GCC\ARM_CM0/portmacro.h \
+ C:\Pico\FreeRTOS-Project\freertos\FreeRTOS-Kernel\include/mpu_wrappers.h \
+ C:\Pico\FreeRTOS-Project\freertos\FreeRTOS-Kernel\include/task.h \
+ C:\Pico\FreeRTOS-Project\freertos\FreeRTOS-Kernel\include/list.h \
+ C:\Pico\FreeRTOS-Project\freertos\FreeRTOS-Kernel\include/timers.h \
+ C:\Pico\FreeRTOS-Project\freertos\FreeRTOS-Kernel\include/task.h \
+ C:\Pico\FreeRTOS-Project\freertos\FreeRTOS-Kernel\include/stack_macros.h

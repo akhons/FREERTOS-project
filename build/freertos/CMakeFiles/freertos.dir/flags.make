@@ -4,7 +4,7 @@
 # compile C with C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe
 C_DEFINES = 
 
-C_INCLUDES = -IC:\Pico\rp2040-freertos-project\freertos\. -IC:\Pico\rp2040-freertos-project\freertos\FreeRTOS-Kernel\include -IC:\Pico\rp2040-freertos-project\freertos\FreeRTOS-Kernel\portable\GCC\ARM_CM0
+C_INCLUDES = -IC:\Pico\FreeRTOS-Project\freertos\. -IC:\Pico\FreeRTOS-Project\freertos\FreeRTOS-Kernel\include -IC:\Pico\FreeRTOS-Project\freertos\FreeRTOS-Kernel\portable\GCC\ARM_CM0
 
 C_FLAGS = -mcpu=cortex-m0plus -mthumb -Og -g
 

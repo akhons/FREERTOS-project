@@ -42,10 +42,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Pico\rp2040-freertos-project
+CMAKE_SOURCE_DIR = C:\Pico\FreeRTOS-Project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Pico\rp2040-freertos-project\build
+CMAKE_BINARY_DIR = C:\Pico\FreeRTOS-Project\build
 
 # Include any dependencies generated for this target.
 include freertos\CMakeFiles\freertos.dir\depend.make
@@ -59,164 +59,164 @@ include freertos\CMakeFiles\freertos.dir\progress.make
 include freertos\CMakeFiles\freertos.dir\flags.make
 
 freertos\CMakeFiles\freertos.dir\FreeRTOS-Kernel\event_groups.c.obj: freertos\CMakeFiles\freertos.dir\flags.make
-freertos\CMakeFiles\freertos.dir\FreeRTOS-Kernel\event_groups.c.obj: C:\Pico\rp2040-freertos-project\freertos\FreeRTOS-Kernel\event_groups.c
+freertos\CMakeFiles\freertos.dir\FreeRTOS-Kernel\event_groups.c.obj: C:\Pico\FreeRTOS-Project\freertos\FreeRTOS-Kernel\event_groups.c
 freertos\CMakeFiles\freertos.dir\FreeRTOS-Kernel\event_groups.c.obj: freertos\CMakeFiles\freertos.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Pico\rp2040-freertos-project\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object freertos/CMakeFiles/freertos.dir/FreeRTOS-Kernel/event_groups.c.obj"
-	cd C:\Pico\rp2040-freertos-project\build\freertos
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT freertos\CMakeFiles\freertos.dir\FreeRTOS-Kernel\event_groups.c.obj -MF CMakeFiles\freertos.dir\FreeRTOS-Kernel\event_groups.c.obj.d -o CMakeFiles\freertos.dir\FreeRTOS-Kernel\event_groups.c.obj -c C:\Pico\rp2040-freertos-project\freertos\FreeRTOS-Kernel\event_groups.c
-	cd C:\Pico\rp2040-freertos-project\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Pico\FreeRTOS-Project\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object freertos/CMakeFiles/freertos.dir/FreeRTOS-Kernel/event_groups.c.obj"
+	cd C:\Pico\FreeRTOS-Project\build\freertos
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT freertos\CMakeFiles\freertos.dir\FreeRTOS-Kernel\event_groups.c.obj -MF CMakeFiles\freertos.dir\FreeRTOS-Kernel\event_groups.c.obj.d -o CMakeFiles\freertos.dir\FreeRTOS-Kernel\event_groups.c.obj -c C:\Pico\FreeRTOS-Project\freertos\FreeRTOS-Kernel\event_groups.c
+	cd C:\Pico\FreeRTOS-Project\build
 
 freertos\CMakeFiles\freertos.dir\FreeRTOS-Kernel\event_groups.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/freertos.dir/FreeRTOS-Kernel/event_groups.c.i"
-	cd C:\Pico\rp2040-freertos-project\build\freertos
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Pico\rp2040-freertos-project\freertos\FreeRTOS-Kernel\event_groups.c > CMakeFiles\freertos.dir\FreeRTOS-Kernel\event_groups.c.i
-	cd C:\Pico\rp2040-freertos-project\build
+	cd C:\Pico\FreeRTOS-Project\build\freertos
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Pico\FreeRTOS-Project\freertos\FreeRTOS-Kernel\event_groups.c > CMakeFiles\freertos.dir\FreeRTOS-Kernel\event_groups.c.i
+	cd C:\Pico\FreeRTOS-Project\build
 
 freertos\CMakeFiles\freertos.dir\FreeRTOS-Kernel\event_groups.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/freertos.dir/FreeRTOS-Kernel/event_groups.c.s"
-	cd C:\Pico\rp2040-freertos-project\build\freertos
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Pico\rp2040-freertos-project\freertos\FreeRTOS-Kernel\event_groups.c -o CMakeFiles\freertos.dir\FreeRTOS-Kernel\event_groups.c.s
-	cd C:\Pico\rp2040-freertos-project\build
+	cd C:\Pico\FreeRTOS-Project\build\freertos
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Pico\FreeRTOS-Project\freertos\FreeRTOS-Kernel\event_groups.c -o CMakeFiles\freertos.dir\FreeRTOS-Kernel\event_groups.c.s
+	cd C:\Pico\FreeRTOS-Project\build
 
 freertos\CMakeFiles\freertos.dir\FreeRTOS-Kernel\list.c.obj: freertos\CMakeFiles\freertos.dir\flags.make
-freertos\CMakeFiles\freertos.dir\FreeRTOS-Kernel\list.c.obj: C:\Pico\rp2040-freertos-project\freertos\FreeRTOS-Kernel\list.c
+freertos\CMakeFiles\freertos.dir\FreeRTOS-Kernel\list.c.obj: C:\Pico\FreeRTOS-Project\freertos\FreeRTOS-Kernel\list.c
 freertos\CMakeFiles\freertos.dir\FreeRTOS-Kernel\list.c.obj: freertos\CMakeFiles\freertos.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Pico\rp2040-freertos-project\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object freertos/CMakeFiles/freertos.dir/FreeRTOS-Kernel/list.c.obj"
-	cd C:\Pico\rp2040-freertos-project\build\freertos
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT freertos\CMakeFiles\freertos.dir\FreeRTOS-Kernel\list.c.obj -MF CMakeFiles\freertos.dir\FreeRTOS-Kernel\list.c.obj.d -o CMakeFiles\freertos.dir\FreeRTOS-Kernel\list.c.obj -c C:\Pico\rp2040-freertos-project\freertos\FreeRTOS-Kernel\list.c
-	cd C:\Pico\rp2040-freertos-project\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Pico\FreeRTOS-Project\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object freertos/CMakeFiles/freertos.dir/FreeRTOS-Kernel/list.c.obj"
+	cd C:\Pico\FreeRTOS-Project\build\freertos
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT freertos\CMakeFiles\freertos.dir\FreeRTOS-Kernel\list.c.obj -MF CMakeFiles\freertos.dir\FreeRTOS-Kernel\list.c.obj.d -o CMakeFiles\freertos.dir\FreeRTOS-Kernel\list.c.obj -c C:\Pico\FreeRTOS-Project\freertos\FreeRTOS-Kernel\list.c
+	cd C:\Pico\FreeRTOS-Project\build
 
 freertos\CMakeFiles\freertos.dir\FreeRTOS-Kernel\list.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/freertos.dir/FreeRTOS-Kernel/list.c.i"
-	cd C:\Pico\rp2040-freertos-project\build\freertos
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Pico\rp2040-freertos-project\freertos\FreeRTOS-Kernel\list.c > CMakeFiles\freertos.dir\FreeRTOS-Kernel\list.c.i
-	cd C:\Pico\rp2040-freertos-project\build
+	cd C:\Pico\FreeRTOS-Project\build\freertos
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Pico\FreeRTOS-Project\freertos\FreeRTOS-Kernel\list.c > CMakeFiles\freertos.dir\FreeRTOS-Kernel\list.c.i
+	cd C:\Pico\FreeRTOS-Project\build
 
 freertos\CMakeFiles\freertos.dir\FreeRTOS-Kernel\list.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/freertos.dir/FreeRTOS-Kernel/list.c.s"
-	cd C:\Pico\rp2040-freertos-project\build\freertos
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Pico\rp2040-freertos-project\freertos\FreeRTOS-Kernel\list.c -o CMakeFiles\freertos.dir\FreeRTOS-Kernel\list.c.s
-	cd C:\Pico\rp2040-freertos-project\build
+	cd C:\Pico\FreeRTOS-Project\build\freertos
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Pico\FreeRTOS-Project\freertos\FreeRTOS-Kernel\list.c -o CMakeFiles\freertos.dir\FreeRTOS-Kernel\list.c.s
+	cd C:\Pico\FreeRTOS-Project\build
 
 freertos\CMakeFiles\freertos.dir\FreeRTOS-Kernel\queue.c.obj: freertos\CMakeFiles\freertos.dir\flags.make
-freertos\CMakeFiles\freertos.dir\FreeRTOS-Kernel\queue.c.obj: C:\Pico\rp2040-freertos-project\freertos\FreeRTOS-Kernel\queue.c
+freertos\CMakeFiles\freertos.dir\FreeRTOS-Kernel\queue.c.obj: C:\Pico\FreeRTOS-Project\freertos\FreeRTOS-Kernel\queue.c
 freertos\CMakeFiles\freertos.dir\FreeRTOS-Kernel\queue.c.obj: freertos\CMakeFiles\freertos.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Pico\rp2040-freertos-project\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object freertos/CMakeFiles/freertos.dir/FreeRTOS-Kernel/queue.c.obj"
-	cd C:\Pico\rp2040-freertos-project\build\freertos
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT freertos\CMakeFiles\freertos.dir\FreeRTOS-Kernel\queue.c.obj -MF CMakeFiles\freertos.dir\FreeRTOS-Kernel\queue.c.obj.d -o CMakeFiles\freertos.dir\FreeRTOS-Kernel\queue.c.obj -c C:\Pico\rp2040-freertos-project\freertos\FreeRTOS-Kernel\queue.c
-	cd C:\Pico\rp2040-freertos-project\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Pico\FreeRTOS-Project\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object freertos/CMakeFiles/freertos.dir/FreeRTOS-Kernel/queue.c.obj"
+	cd C:\Pico\FreeRTOS-Project\build\freertos
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT freertos\CMakeFiles\freertos.dir\FreeRTOS-Kernel\queue.c.obj -MF CMakeFiles\freertos.dir\FreeRTOS-Kernel\queue.c.obj.d -o CMakeFiles\freertos.dir\FreeRTOS-Kernel\queue.c.obj -c C:\Pico\FreeRTOS-Project\freertos\FreeRTOS-Kernel\queue.c
+	cd C:\Pico\FreeRTOS-Project\build
 
 freertos\CMakeFiles\freertos.dir\FreeRTOS-Kernel\queue.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/freertos.dir/FreeRTOS-Kernel/queue.c.i"
-	cd C:\Pico\rp2040-freertos-project\build\freertos
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Pico\rp2040-freertos-project\freertos\FreeRTOS-Kernel\queue.c > CMakeFiles\freertos.dir\FreeRTOS-Kernel\queue.c.i
-	cd C:\Pico\rp2040-freertos-project\build
+	cd C:\Pico\FreeRTOS-Project\build\freertos
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Pico\FreeRTOS-Project\freertos\FreeRTOS-Kernel\queue.c > CMakeFiles\freertos.dir\FreeRTOS-Kernel\queue.c.i
+	cd C:\Pico\FreeRTOS-Project\build
 
 freertos\CMakeFiles\freertos.dir\FreeRTOS-Kernel\queue.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/freertos.dir/FreeRTOS-Kernel/queue.c.s"
-	cd C:\Pico\rp2040-freertos-project\build\freertos
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Pico\rp2040-freertos-project\freertos\FreeRTOS-Kernel\queue.c -o CMakeFiles\freertos.dir\FreeRTOS-Kernel\queue.c.s
-	cd C:\Pico\rp2040-freertos-project\build
+	cd C:\Pico\FreeRTOS-Project\build\freertos
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Pico\FreeRTOS-Project\freertos\FreeRTOS-Kernel\queue.c -o CMakeFiles\freertos.dir\FreeRTOS-Kernel\queue.c.s
+	cd C:\Pico\FreeRTOS-Project\build
 
 freertos\CMakeFiles\freertos.dir\FreeRTOS-Kernel\stream_buffer.c.obj: freertos\CMakeFiles\freertos.dir\flags.make
-freertos\CMakeFiles\freertos.dir\FreeRTOS-Kernel\stream_buffer.c.obj: C:\Pico\rp2040-freertos-project\freertos\FreeRTOS-Kernel\stream_buffer.c
+freertos\CMakeFiles\freertos.dir\FreeRTOS-Kernel\stream_buffer.c.obj: C:\Pico\FreeRTOS-Project\freertos\FreeRTOS-Kernel\stream_buffer.c
 freertos\CMakeFiles\freertos.dir\FreeRTOS-Kernel\stream_buffer.c.obj: freertos\CMakeFiles\freertos.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Pico\rp2040-freertos-project\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object freertos/CMakeFiles/freertos.dir/FreeRTOS-Kernel/stream_buffer.c.obj"
-	cd C:\Pico\rp2040-freertos-project\build\freertos
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT freertos\CMakeFiles\freertos.dir\FreeRTOS-Kernel\stream_buffer.c.obj -MF CMakeFiles\freertos.dir\FreeRTOS-Kernel\stream_buffer.c.obj.d -o CMakeFiles\freertos.dir\FreeRTOS-Kernel\stream_buffer.c.obj -c C:\Pico\rp2040-freertos-project\freertos\FreeRTOS-Kernel\stream_buffer.c
-	cd C:\Pico\rp2040-freertos-project\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Pico\FreeRTOS-Project\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object freertos/CMakeFiles/freertos.dir/FreeRTOS-Kernel/stream_buffer.c.obj"
+	cd C:\Pico\FreeRTOS-Project\build\freertos
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT freertos\CMakeFiles\freertos.dir\FreeRTOS-Kernel\stream_buffer.c.obj -MF CMakeFiles\freertos.dir\FreeRTOS-Kernel\stream_buffer.c.obj.d -o CMakeFiles\freertos.dir\FreeRTOS-Kernel\stream_buffer.c.obj -c C:\Pico\FreeRTOS-Project\freertos\FreeRTOS-Kernel\stream_buffer.c
+	cd C:\Pico\FreeRTOS-Project\build
 
 freertos\CMakeFiles\freertos.dir\FreeRTOS-Kernel\stream_buffer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/freertos.dir/FreeRTOS-Kernel/stream_buffer.c.i"
-	cd C:\Pico\rp2040-freertos-project\build\freertos
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Pico\rp2040-freertos-project\freertos\FreeRTOS-Kernel\stream_buffer.c > CMakeFiles\freertos.dir\FreeRTOS-Kernel\stream_buffer.c.i
-	cd C:\Pico\rp2040-freertos-project\build
+	cd C:\Pico\FreeRTOS-Project\build\freertos
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Pico\FreeRTOS-Project\freertos\FreeRTOS-Kernel\stream_buffer.c > CMakeFiles\freertos.dir\FreeRTOS-Kernel\stream_buffer.c.i
+	cd C:\Pico\FreeRTOS-Project\build
 
 freertos\CMakeFiles\freertos.dir\FreeRTOS-Kernel\stream_buffer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/freertos.dir/FreeRTOS-Kernel/stream_buffer.c.s"
-	cd C:\Pico\rp2040-freertos-project\build\freertos
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Pico\rp2040-freertos-project\freertos\FreeRTOS-Kernel\stream_buffer.c -o CMakeFiles\freertos.dir\FreeRTOS-Kernel\stream_buffer.c.s
-	cd C:\Pico\rp2040-freertos-project\build
+	cd C:\Pico\FreeRTOS-Project\build\freertos
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Pico\FreeRTOS-Project\freertos\FreeRTOS-Kernel\stream_buffer.c -o CMakeFiles\freertos.dir\FreeRTOS-Kernel\stream_buffer.c.s
+	cd C:\Pico\FreeRTOS-Project\build
 
 freertos\CMakeFiles\freertos.dir\FreeRTOS-Kernel\tasks.c.obj: freertos\CMakeFiles\freertos.dir\flags.make
-freertos\CMakeFiles\freertos.dir\FreeRTOS-Kernel\tasks.c.obj: C:\Pico\rp2040-freertos-project\freertos\FreeRTOS-Kernel\tasks.c
+freertos\CMakeFiles\freertos.dir\FreeRTOS-Kernel\tasks.c.obj: C:\Pico\FreeRTOS-Project\freertos\FreeRTOS-Kernel\tasks.c
 freertos\CMakeFiles\freertos.dir\FreeRTOS-Kernel\tasks.c.obj: freertos\CMakeFiles\freertos.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Pico\rp2040-freertos-project\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object freertos/CMakeFiles/freertos.dir/FreeRTOS-Kernel/tasks.c.obj"
-	cd C:\Pico\rp2040-freertos-project\build\freertos
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT freertos\CMakeFiles\freertos.dir\FreeRTOS-Kernel\tasks.c.obj -MF CMakeFiles\freertos.dir\FreeRTOS-Kernel\tasks.c.obj.d -o CMakeFiles\freertos.dir\FreeRTOS-Kernel\tasks.c.obj -c C:\Pico\rp2040-freertos-project\freertos\FreeRTOS-Kernel\tasks.c
-	cd C:\Pico\rp2040-freertos-project\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Pico\FreeRTOS-Project\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object freertos/CMakeFiles/freertos.dir/FreeRTOS-Kernel/tasks.c.obj"
+	cd C:\Pico\FreeRTOS-Project\build\freertos
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT freertos\CMakeFiles\freertos.dir\FreeRTOS-Kernel\tasks.c.obj -MF CMakeFiles\freertos.dir\FreeRTOS-Kernel\tasks.c.obj.d -o CMakeFiles\freertos.dir\FreeRTOS-Kernel\tasks.c.obj -c C:\Pico\FreeRTOS-Project\freertos\FreeRTOS-Kernel\tasks.c
+	cd C:\Pico\FreeRTOS-Project\build
 
 freertos\CMakeFiles\freertos.dir\FreeRTOS-Kernel\tasks.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/freertos.dir/FreeRTOS-Kernel/tasks.c.i"
-	cd C:\Pico\rp2040-freertos-project\build\freertos
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Pico\rp2040-freertos-project\freertos\FreeRTOS-Kernel\tasks.c > CMakeFiles\freertos.dir\FreeRTOS-Kernel\tasks.c.i
-	cd C:\Pico\rp2040-freertos-project\build
+	cd C:\Pico\FreeRTOS-Project\build\freertos
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Pico\FreeRTOS-Project\freertos\FreeRTOS-Kernel\tasks.c > CMakeFiles\freertos.dir\FreeRTOS-Kernel\tasks.c.i
+	cd C:\Pico\FreeRTOS-Project\build
 
 freertos\CMakeFiles\freertos.dir\FreeRTOS-Kernel\tasks.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/freertos.dir/FreeRTOS-Kernel/tasks.c.s"
-	cd C:\Pico\rp2040-freertos-project\build\freertos
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Pico\rp2040-freertos-project\freertos\FreeRTOS-Kernel\tasks.c -o CMakeFiles\freertos.dir\FreeRTOS-Kernel\tasks.c.s
-	cd C:\Pico\rp2040-freertos-project\build
+	cd C:\Pico\FreeRTOS-Project\build\freertos
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Pico\FreeRTOS-Project\freertos\FreeRTOS-Kernel\tasks.c -o CMakeFiles\freertos.dir\FreeRTOS-Kernel\tasks.c.s
+	cd C:\Pico\FreeRTOS-Project\build
 
 freertos\CMakeFiles\freertos.dir\FreeRTOS-Kernel\timers.c.obj: freertos\CMakeFiles\freertos.dir\flags.make
-freertos\CMakeFiles\freertos.dir\FreeRTOS-Kernel\timers.c.obj: C:\Pico\rp2040-freertos-project\freertos\FreeRTOS-Kernel\timers.c
+freertos\CMakeFiles\freertos.dir\FreeRTOS-Kernel\timers.c.obj: C:\Pico\FreeRTOS-Project\freertos\FreeRTOS-Kernel\timers.c
 freertos\CMakeFiles\freertos.dir\FreeRTOS-Kernel\timers.c.obj: freertos\CMakeFiles\freertos.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Pico\rp2040-freertos-project\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object freertos/CMakeFiles/freertos.dir/FreeRTOS-Kernel/timers.c.obj"
-	cd C:\Pico\rp2040-freertos-project\build\freertos
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT freertos\CMakeFiles\freertos.dir\FreeRTOS-Kernel\timers.c.obj -MF CMakeFiles\freertos.dir\FreeRTOS-Kernel\timers.c.obj.d -o CMakeFiles\freertos.dir\FreeRTOS-Kernel\timers.c.obj -c C:\Pico\rp2040-freertos-project\freertos\FreeRTOS-Kernel\timers.c
-	cd C:\Pico\rp2040-freertos-project\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Pico\FreeRTOS-Project\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object freertos/CMakeFiles/freertos.dir/FreeRTOS-Kernel/timers.c.obj"
+	cd C:\Pico\FreeRTOS-Project\build\freertos
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT freertos\CMakeFiles\freertos.dir\FreeRTOS-Kernel\timers.c.obj -MF CMakeFiles\freertos.dir\FreeRTOS-Kernel\timers.c.obj.d -o CMakeFiles\freertos.dir\FreeRTOS-Kernel\timers.c.obj -c C:\Pico\FreeRTOS-Project\freertos\FreeRTOS-Kernel\timers.c
+	cd C:\Pico\FreeRTOS-Project\build
 
 freertos\CMakeFiles\freertos.dir\FreeRTOS-Kernel\timers.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/freertos.dir/FreeRTOS-Kernel/timers.c.i"
-	cd C:\Pico\rp2040-freertos-project\build\freertos
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Pico\rp2040-freertos-project\freertos\FreeRTOS-Kernel\timers.c > CMakeFiles\freertos.dir\FreeRTOS-Kernel\timers.c.i
-	cd C:\Pico\rp2040-freertos-project\build
+	cd C:\Pico\FreeRTOS-Project\build\freertos
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Pico\FreeRTOS-Project\freertos\FreeRTOS-Kernel\timers.c > CMakeFiles\freertos.dir\FreeRTOS-Kernel\timers.c.i
+	cd C:\Pico\FreeRTOS-Project\build
 
 freertos\CMakeFiles\freertos.dir\FreeRTOS-Kernel\timers.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/freertos.dir/FreeRTOS-Kernel/timers.c.s"
-	cd C:\Pico\rp2040-freertos-project\build\freertos
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Pico\rp2040-freertos-project\freertos\FreeRTOS-Kernel\timers.c -o CMakeFiles\freertos.dir\FreeRTOS-Kernel\timers.c.s
-	cd C:\Pico\rp2040-freertos-project\build
+	cd C:\Pico\FreeRTOS-Project\build\freertos
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Pico\FreeRTOS-Project\freertos\FreeRTOS-Kernel\timers.c -o CMakeFiles\freertos.dir\FreeRTOS-Kernel\timers.c.s
+	cd C:\Pico\FreeRTOS-Project\build
 
 freertos\CMakeFiles\freertos.dir\FreeRTOS-Kernel\portable\MemMang\heap_3.c.obj: freertos\CMakeFiles\freertos.dir\flags.make
-freertos\CMakeFiles\freertos.dir\FreeRTOS-Kernel\portable\MemMang\heap_3.c.obj: C:\Pico\rp2040-freertos-project\freertos\FreeRTOS-Kernel\portable\MemMang\heap_3.c
+freertos\CMakeFiles\freertos.dir\FreeRTOS-Kernel\portable\MemMang\heap_3.c.obj: C:\Pico\FreeRTOS-Project\freertos\FreeRTOS-Kernel\portable\MemMang\heap_3.c
 freertos\CMakeFiles\freertos.dir\FreeRTOS-Kernel\portable\MemMang\heap_3.c.obj: freertos\CMakeFiles\freertos.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Pico\rp2040-freertos-project\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object freertos/CMakeFiles/freertos.dir/FreeRTOS-Kernel/portable/MemMang/heap_3.c.obj"
-	cd C:\Pico\rp2040-freertos-project\build\freertos
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT freertos\CMakeFiles\freertos.dir\FreeRTOS-Kernel\portable\MemMang\heap_3.c.obj -MF CMakeFiles\freertos.dir\FreeRTOS-Kernel\portable\MemMang\heap_3.c.obj.d -o CMakeFiles\freertos.dir\FreeRTOS-Kernel\portable\MemMang\heap_3.c.obj -c C:\Pico\rp2040-freertos-project\freertos\FreeRTOS-Kernel\portable\MemMang\heap_3.c
-	cd C:\Pico\rp2040-freertos-project\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Pico\FreeRTOS-Project\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object freertos/CMakeFiles/freertos.dir/FreeRTOS-Kernel/portable/MemMang/heap_3.c.obj"
+	cd C:\Pico\FreeRTOS-Project\build\freertos
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT freertos\CMakeFiles\freertos.dir\FreeRTOS-Kernel\portable\MemMang\heap_3.c.obj -MF CMakeFiles\freertos.dir\FreeRTOS-Kernel\portable\MemMang\heap_3.c.obj.d -o CMakeFiles\freertos.dir\FreeRTOS-Kernel\portable\MemMang\heap_3.c.obj -c C:\Pico\FreeRTOS-Project\freertos\FreeRTOS-Kernel\portable\MemMang\heap_3.c
+	cd C:\Pico\FreeRTOS-Project\build
 
 freertos\CMakeFiles\freertos.dir\FreeRTOS-Kernel\portable\MemMang\heap_3.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/freertos.dir/FreeRTOS-Kernel/portable/MemMang/heap_3.c.i"
-	cd C:\Pico\rp2040-freertos-project\build\freertos
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Pico\rp2040-freertos-project\freertos\FreeRTOS-Kernel\portable\MemMang\heap_3.c > CMakeFiles\freertos.dir\FreeRTOS-Kernel\portable\MemMang\heap_3.c.i
-	cd C:\Pico\rp2040-freertos-project\build
+	cd C:\Pico\FreeRTOS-Project\build\freertos
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Pico\FreeRTOS-Project\freertos\FreeRTOS-Kernel\portable\MemMang\heap_3.c > CMakeFiles\freertos.dir\FreeRTOS-Kernel\portable\MemMang\heap_3.c.i
+	cd C:\Pico\FreeRTOS-Project\build
 
 freertos\CMakeFiles\freertos.dir\FreeRTOS-Kernel\portable\MemMang\heap_3.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/freertos.dir/FreeRTOS-Kernel/portable/MemMang/heap_3.c.s"
-	cd C:\Pico\rp2040-freertos-project\build\freertos
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Pico\rp2040-freertos-project\freertos\FreeRTOS-Kernel\portable\MemMang\heap_3.c -o CMakeFiles\freertos.dir\FreeRTOS-Kernel\portable\MemMang\heap_3.c.s
-	cd C:\Pico\rp2040-freertos-project\build
+	cd C:\Pico\FreeRTOS-Project\build\freertos
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Pico\FreeRTOS-Project\freertos\FreeRTOS-Kernel\portable\MemMang\heap_3.c -o CMakeFiles\freertos.dir\FreeRTOS-Kernel\portable\MemMang\heap_3.c.s
+	cd C:\Pico\FreeRTOS-Project\build
 
 freertos\CMakeFiles\freertos.dir\FreeRTOS-Kernel\portable\GCC\ARM_CM0\port.c.obj: freertos\CMakeFiles\freertos.dir\flags.make
-freertos\CMakeFiles\freertos.dir\FreeRTOS-Kernel\portable\GCC\ARM_CM0\port.c.obj: C:\Pico\rp2040-freertos-project\freertos\FreeRTOS-Kernel\portable\GCC\ARM_CM0\port.c
+freertos\CMakeFiles\freertos.dir\FreeRTOS-Kernel\portable\GCC\ARM_CM0\port.c.obj: C:\Pico\FreeRTOS-Project\freertos\FreeRTOS-Kernel\portable\GCC\ARM_CM0\port.c
 freertos\CMakeFiles\freertos.dir\FreeRTOS-Kernel\portable\GCC\ARM_CM0\port.c.obj: freertos\CMakeFiles\freertos.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Pico\rp2040-freertos-project\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object freertos/CMakeFiles/freertos.dir/FreeRTOS-Kernel/portable/GCC/ARM_CM0/port.c.obj"
-	cd C:\Pico\rp2040-freertos-project\build\freertos
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT freertos\CMakeFiles\freertos.dir\FreeRTOS-Kernel\portable\GCC\ARM_CM0\port.c.obj -MF CMakeFiles\freertos.dir\FreeRTOS-Kernel\portable\GCC\ARM_CM0\port.c.obj.d -o CMakeFiles\freertos.dir\FreeRTOS-Kernel\portable\GCC\ARM_CM0\port.c.obj -c C:\Pico\rp2040-freertos-project\freertos\FreeRTOS-Kernel\portable\GCC\ARM_CM0\port.c
-	cd C:\Pico\rp2040-freertos-project\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Pico\FreeRTOS-Project\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object freertos/CMakeFiles/freertos.dir/FreeRTOS-Kernel/portable/GCC/ARM_CM0/port.c.obj"
+	cd C:\Pico\FreeRTOS-Project\build\freertos
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT freertos\CMakeFiles\freertos.dir\FreeRTOS-Kernel\portable\GCC\ARM_CM0\port.c.obj -MF CMakeFiles\freertos.dir\FreeRTOS-Kernel\portable\GCC\ARM_CM0\port.c.obj.d -o CMakeFiles\freertos.dir\FreeRTOS-Kernel\portable\GCC\ARM_CM0\port.c.obj -c C:\Pico\FreeRTOS-Project\freertos\FreeRTOS-Kernel\portable\GCC\ARM_CM0\port.c
+	cd C:\Pico\FreeRTOS-Project\build
 
 freertos\CMakeFiles\freertos.dir\FreeRTOS-Kernel\portable\GCC\ARM_CM0\port.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/freertos.dir/FreeRTOS-Kernel/portable/GCC/ARM_CM0/port.c.i"
-	cd C:\Pico\rp2040-freertos-project\build\freertos
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Pico\rp2040-freertos-project\freertos\FreeRTOS-Kernel\portable\GCC\ARM_CM0\port.c > CMakeFiles\freertos.dir\FreeRTOS-Kernel\portable\GCC\ARM_CM0\port.c.i
-	cd C:\Pico\rp2040-freertos-project\build
+	cd C:\Pico\FreeRTOS-Project\build\freertos
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Pico\FreeRTOS-Project\freertos\FreeRTOS-Kernel\portable\GCC\ARM_CM0\port.c > CMakeFiles\freertos.dir\FreeRTOS-Kernel\portable\GCC\ARM_CM0\port.c.i
+	cd C:\Pico\FreeRTOS-Project\build
 
 freertos\CMakeFiles\freertos.dir\FreeRTOS-Kernel\portable\GCC\ARM_CM0\port.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/freertos.dir/FreeRTOS-Kernel/portable/GCC/ARM_CM0/port.c.s"
-	cd C:\Pico\rp2040-freertos-project\build\freertos
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Pico\rp2040-freertos-project\freertos\FreeRTOS-Kernel\portable\GCC\ARM_CM0\port.c -o CMakeFiles\freertos.dir\FreeRTOS-Kernel\portable\GCC\ARM_CM0\port.c.s
-	cd C:\Pico\rp2040-freertos-project\build
+	cd C:\Pico\FreeRTOS-Project\build\freertos
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Pico\FreeRTOS-Project\freertos\FreeRTOS-Kernel\portable\GCC\ARM_CM0\port.c -o CMakeFiles\freertos.dir\FreeRTOS-Kernel\portable\GCC\ARM_CM0\port.c.s
+	cd C:\Pico\FreeRTOS-Project\build
 
 # Object files for target freertos
 freertos_OBJECTS = \
@@ -242,25 +242,25 @@ freertos\libfreertos.a: freertos\CMakeFiles\freertos.dir\FreeRTOS-Kernel\portabl
 freertos\libfreertos.a: freertos\CMakeFiles\freertos.dir\FreeRTOS-Kernel\portable\GCC\ARM_CM0\port.c.obj
 freertos\libfreertos.a: freertos\CMakeFiles\freertos.dir\build.make
 freertos\libfreertos.a: freertos\CMakeFiles\freertos.dir\link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Pico\rp2040-freertos-project\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking C static library libfreertos.a"
-	cd C:\Pico\rp2040-freertos-project\build\freertos
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Pico\FreeRTOS-Project\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking C static library libfreertos.a"
+	cd C:\Pico\FreeRTOS-Project\build\freertos
 	$(CMAKE_COMMAND) -P CMakeFiles\freertos.dir\cmake_clean_target.cmake
-	cd C:\Pico\rp2040-freertos-project\build
-	cd C:\Pico\rp2040-freertos-project\build\freertos
+	cd C:\Pico\FreeRTOS-Project\build
+	cd C:\Pico\FreeRTOS-Project\build\freertos
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\freertos.dir\link.txt --verbose=$(VERBOSE)
-	cd C:\Pico\rp2040-freertos-project\build
+	cd C:\Pico\FreeRTOS-Project\build
 
 # Rule to build all files generated by this target.
 freertos\CMakeFiles\freertos.dir\build: freertos\libfreertos.a
 .PHONY : freertos\CMakeFiles\freertos.dir\build
 
 freertos\CMakeFiles\freertos.dir\clean:
-	cd C:\Pico\rp2040-freertos-project\build\freertos
+	cd C:\Pico\FreeRTOS-Project\build\freertos
 	$(CMAKE_COMMAND) -P CMakeFiles\freertos.dir\cmake_clean.cmake
-	cd C:\Pico\rp2040-freertos-project\build
+	cd C:\Pico\FreeRTOS-Project\build
 .PHONY : freertos\CMakeFiles\freertos.dir\clean
 
 freertos\CMakeFiles\freertos.dir\depend:
-	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" C:\Pico\rp2040-freertos-project C:\Pico\rp2040-freertos-project\freertos C:\Pico\rp2040-freertos-project\build C:\Pico\rp2040-freertos-project\build\freertos C:\Pico\rp2040-freertos-project\build\freertos\CMakeFiles\freertos.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" C:\Pico\FreeRTOS-Project C:\Pico\FreeRTOS-Project\freertos C:\Pico\FreeRTOS-Project\build C:\Pico\FreeRTOS-Project\build\freertos C:\Pico\FreeRTOS-Project\build\freertos\CMakeFiles\freertos.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : freertos\CMakeFiles\freertos.dir\depend
 

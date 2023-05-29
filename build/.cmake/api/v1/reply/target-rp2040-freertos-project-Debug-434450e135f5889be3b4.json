@@ -285,7 +285,7 @@
 				},
 				{
 					"backtrace" : 2,
-					"path" : "C:/Pico/rp2040-freertos-project/build/generated/pico_base"
+					"path" : "C:/Pico/FreeRTOS-Project/build/generated/pico_base"
 				},
 				{
 					"backtrace" : 2,
@@ -425,15 +425,15 @@
 				},
 				{
 					"backtrace" : 2,
-					"path" : "C:/Pico/rp2040-freertos-project/freertos/."
+					"path" : "C:/Pico/FreeRTOS-Project/freertos/."
 				},
 				{
 					"backtrace" : 2,
-					"path" : "C:/Pico/rp2040-freertos-project/freertos/FreeRTOS-Kernel/include"
+					"path" : "C:/Pico/FreeRTOS-Project/freertos/FreeRTOS-Kernel/include"
 				},
 				{
 					"backtrace" : 2,
-					"path" : "C:/Pico/rp2040-freertos-project/freertos/FreeRTOS-Kernel/portable/GCC/ARM_CM0"
+					"path" : "C:/Pico/FreeRTOS-Project/freertos/FreeRTOS-Kernel/portable/GCC/ARM_CM0"
 				},
 				{
 					"backtrace" : 2,
@@ -662,7 +662,7 @@
 				},
 				{
 					"backtrace" : 2,
-					"path" : "C:/Pico/rp2040-freertos-project/build/generated/pico_base"
+					"path" : "C:/Pico/FreeRTOS-Project/build/generated/pico_base"
 				},
 				{
 					"backtrace" : 2,
@@ -802,15 +802,15 @@
 				},
 				{
 					"backtrace" : 2,
-					"path" : "C:/Pico/rp2040-freertos-project/freertos/."
+					"path" : "C:/Pico/FreeRTOS-Project/freertos/."
 				},
 				{
 					"backtrace" : 2,
-					"path" : "C:/Pico/rp2040-freertos-project/freertos/FreeRTOS-Kernel/include"
+					"path" : "C:/Pico/FreeRTOS-Project/freertos/FreeRTOS-Kernel/include"
 				},
 				{
 					"backtrace" : 2,
-					"path" : "C:/Pico/rp2040-freertos-project/freertos/FreeRTOS-Kernel/portable/GCC/ARM_CM0"
+					"path" : "C:/Pico/FreeRTOS-Project/freertos/FreeRTOS-Kernel/portable/GCC/ARM_CM0"
 				},
 				{
 					"backtrace" : 2,
@@ -1031,7 +1031,7 @@
 				},
 				{
 					"backtrace" : 2,
-					"path" : "C:/Pico/rp2040-freertos-project/build/generated/pico_base"
+					"path" : "C:/Pico/FreeRTOS-Project/build/generated/pico_base"
 				},
 				{
 					"backtrace" : 2,
@@ -1171,15 +1171,15 @@
 				},
 				{
 					"backtrace" : 2,
-					"path" : "C:/Pico/rp2040-freertos-project/freertos/."
+					"path" : "C:/Pico/FreeRTOS-Project/freertos/."
 				},
 				{
 					"backtrace" : 2,
-					"path" : "C:/Pico/rp2040-freertos-project/freertos/FreeRTOS-Kernel/include"
+					"path" : "C:/Pico/FreeRTOS-Project/freertos/FreeRTOS-Kernel/include"
 				},
 				{
 					"backtrace" : 2,
-					"path" : "C:/Pico/rp2040-freertos-project/freertos/FreeRTOS-Kernel/portable/GCC/ARM_CM0"
+					"path" : "C:/Pico/FreeRTOS-Project/freertos/FreeRTOS-Kernel/portable/GCC/ARM_CM0"
 				},
 				{
 					"backtrace" : 2,
@@ -1200,12 +1200,12 @@
 			"id" : "bs2_default_padded_checksummed_asm::@bc554eaed616d198a22d"
 		},
 		{
-			"backtrace" : 2,
-			"id" : "freertos::@2c328eccfcd2443a4ea6"
-		},
-		{
 			"backtrace" : 11,
 			"id" : "ELF2UF2Build::@4a89bb0961aba009e5bd"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "freertos::@2c328eccfcd2443a4ea6"
 		}
 	],
 	"id" : "rp2040-freertos-project::@4a89bb0961aba009e5bd",

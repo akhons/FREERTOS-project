@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Pico/rp2040-freertos-project/build/pioasm/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Pico/FreeRTOS-Project/build/pioasm/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

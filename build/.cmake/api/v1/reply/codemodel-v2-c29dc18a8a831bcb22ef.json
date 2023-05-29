@@ -1167,7 +1167,7 @@
 				{
 					"directoryIndex" : 43,
 					"id" : "bs2_default::@bc554eaed616d198a22d",
-					"jsonFile" : "target-bs2_default-Debug-7eb02515251636df1a09.json",
+					"jsonFile" : "target-bs2_default-Debug-effd1fe20adbb868325a.json",
 					"name" : "bs2_default",
 					"projectIndex" : 1
 				},
@@ -1195,14 +1195,14 @@
 				{
 					"directoryIndex" : 80,
 					"id" : "freertos::@2c328eccfcd2443a4ea6",
-					"jsonFile" : "target-freertos-Debug-4661214c37ea0817dd10.json",
+					"jsonFile" : "target-freertos-Debug-301aad946cec4f5b6ecf.json",
 					"name" : "freertos",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 81,
 					"id" : "rp2040-freertos-project::@4a89bb0961aba009e5bd",
-					"jsonFile" : "target-rp2040-freertos-project-Debug-9748c179d610dc5f0388.json",
+					"jsonFile" : "target-rp2040-freertos-project-Debug-434450e135f5889be3b4.json",
 					"name" : "rp2040-freertos-project",
 					"projectIndex" : 0
 				}
@@ -1212,8 +1212,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Pico/rp2040-freertos-project/build",
-		"source" : "C:/Pico/rp2040-freertos-project"
+		"build" : "C:/Pico/FreeRTOS-Project/build",
+		"source" : "C:/Pico/FreeRTOS-Project"
 	},
 	"version" : 
 	{

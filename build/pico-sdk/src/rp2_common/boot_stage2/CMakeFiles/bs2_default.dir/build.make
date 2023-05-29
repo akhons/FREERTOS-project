@@ -42,10 +42,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Pico\rp2040-freertos-project
+CMAKE_SOURCE_DIR = C:\Pico\FreeRTOS-Project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Pico\rp2040-freertos-project\build
+CMAKE_BINARY_DIR = C:\Pico\FreeRTOS-Project\build
 
 # Include any dependencies generated for this target.
 include pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default.dir\depend.make
@@ -60,22 +60,22 @@ include pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default.dir\flags.mak
 
 pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default.dir\compile_time_choice.S.obj: pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default.dir\flags.make
 pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default.dir\compile_time_choice.S.obj: C:\Pico\pico-sdk\src\rp2_common\boot_stage2\compile_time_choice.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Pico\rp2040-freertos-project\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building ASM object pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/compile_time_choice.S.obj"
-	cd C:\Pico\rp2040-freertos-project\build\pico-sdk\src\rp2_common\boot_stage2
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Pico\FreeRTOS-Project\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building ASM object pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/compile_time_choice.S.obj"
+	cd C:\Pico\FreeRTOS-Project\build\pico-sdk\src\rp2_common\boot_stage2
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\bs2_default.dir\compile_time_choice.S.obj   -c C:\Pico\pico-sdk\src\rp2_common\boot_stage2\compile_time_choice.S
-	cd C:\Pico\rp2040-freertos-project\build
+	cd C:\Pico\FreeRTOS-Project\build
 
 pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default.dir\compile_time_choice.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/bs2_default.dir/compile_time_choice.S.i"
-	cd C:\Pico\rp2040-freertos-project\build\pico-sdk\src\rp2_common\boot_stage2
+	cd C:\Pico\FreeRTOS-Project\build\pico-sdk\src\rp2_common\boot_stage2
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E C:\Pico\pico-sdk\src\rp2_common\boot_stage2\compile_time_choice.S > CMakeFiles\bs2_default.dir\compile_time_choice.S.i
-	cd C:\Pico\rp2040-freertos-project\build
+	cd C:\Pico\FreeRTOS-Project\build
 
 pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default.dir\compile_time_choice.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/bs2_default.dir/compile_time_choice.S.s"
-	cd C:\Pico\rp2040-freertos-project\build\pico-sdk\src\rp2_common\boot_stage2
+	cd C:\Pico\FreeRTOS-Project\build\pico-sdk\src\rp2_common\boot_stage2
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S C:\Pico\pico-sdk\src\rp2_common\boot_stage2\compile_time_choice.S -o CMakeFiles\bs2_default.dir\compile_time_choice.S.s
-	cd C:\Pico\rp2040-freertos-project\build
+	cd C:\Pico\FreeRTOS-Project\build
 
 # Object files for target bs2_default
 bs2_default_OBJECTS = \
@@ -87,26 +87,26 @@ bs2_default_EXTERNAL_OBJECTS =
 pico-sdk\src\rp2_common\boot_stage2\bs2_default.elf: pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default.dir\compile_time_choice.S.obj
 pico-sdk\src\rp2_common\boot_stage2\bs2_default.elf: pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default.dir\build.make
 pico-sdk\src\rp2_common\boot_stage2\bs2_default.elf: C:\Pico\pico-sdk\src\rp2_common\boot_stage2\boot_stage2.ld
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Pico\rp2040-freertos-project\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking ASM executable bs2_default.elf"
-	cd C:\Pico\rp2040-freertos-project\build\pico-sdk\src\rp2_common\boot_stage2
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Pico\FreeRTOS-Project\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking ASM executable bs2_default.elf"
+	cd C:\Pico\FreeRTOS-Project\build\pico-sdk\src\rp2_common\boot_stage2
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE -mcpu=cortex-m0plus -mthumb -Og -g -Wl,--build-id=none --specs=nosys.specs -nostartfiles -Wl,--script=C:/Pico/pico-sdk/src/rp2_common/boot_stage2/boot_stage2.ld -Wl,-Map=bs2_default.elf.map $(bs2_default_OBJECTS) $(bs2_default_EXTERNAL_OBJECTS) -o bs2_default.elf 
-	cd C:\Pico\rp2040-freertos-project\build
-	cd C:\Pico\rp2040-freertos-project\build\pico-sdk\src\rp2_common\boot_stage2
-	echo >nul && "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-objdump.exe" -h C:/Pico/rp2040-freertos-project/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.elf > bs2_default.dis
-	echo >nul && "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-objdump.exe" -d C:/Pico/rp2040-freertos-project/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.elf >> bs2_default.dis
-	cd C:\Pico\rp2040-freertos-project\build
+	cd C:\Pico\FreeRTOS-Project\build
+	cd C:\Pico\FreeRTOS-Project\build\pico-sdk\src\rp2_common\boot_stage2
+	echo >nul && "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-objdump.exe" -h C:/Pico/FreeRTOS-Project/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.elf > bs2_default.dis
+	echo >nul && "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-objdump.exe" -d C:/Pico/FreeRTOS-Project/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.elf >> bs2_default.dis
+	cd C:\Pico\FreeRTOS-Project\build
 
 # Rule to build all files generated by this target.
 pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default.dir\build: pico-sdk\src\rp2_common\boot_stage2\bs2_default.elf
 .PHONY : pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default.dir\build
 
 pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default.dir\clean:
-	cd C:\Pico\rp2040-freertos-project\build\pico-sdk\src\rp2_common\boot_stage2
+	cd C:\Pico\FreeRTOS-Project\build\pico-sdk\src\rp2_common\boot_stage2
 	$(CMAKE_COMMAND) -P CMakeFiles\bs2_default.dir\cmake_clean.cmake
-	cd C:\Pico\rp2040-freertos-project\build
+	cd C:\Pico\FreeRTOS-Project\build
 .PHONY : pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default.dir\clean
 
 pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default.dir\depend:
-	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" C:\Pico\rp2040-freertos-project C:\Pico\pico-sdk\src\rp2_common\boot_stage2 C:\Pico\rp2040-freertos-project\build C:\Pico\rp2040-freertos-project\build\pico-sdk\src\rp2_common\boot_stage2 C:\Pico\rp2040-freertos-project\build\pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" C:\Pico\FreeRTOS-Project C:\Pico\pico-sdk\src\rp2_common\boot_stage2 C:\Pico\FreeRTOS-Project\build C:\Pico\FreeRTOS-Project\build\pico-sdk\src\rp2_common\boot_stage2 C:\Pico\FreeRTOS-Project\build\pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default.dir\depend
 

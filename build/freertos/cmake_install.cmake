@@ -1,4 +1,4 @@
-# Install script for directory: C:/Pico/rp2040-freertos-project/freertos
+# Install script for directory: C:/Pico/FreeRTOS-Project/freertos
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

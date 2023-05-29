@@ -7,12 +7,12 @@ set(CMAKE_DEPENDS_GENERATOR "NMake Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "C:/Pico/pico-sdk/src/common/boot_uf2/CMakeLists.txt"
-  "C:/Pico/pico-sdk/tools/elf2uf2/CMakeLists.txt"
   "CMakeFiles/3.25.1/CMakeCCompiler.cmake"
   "CMakeFiles/3.25.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.25.1/CMakeRCCompiler.cmake"
   "CMakeFiles/3.25.1/CMakeSystem.cmake"
+  "C:/Pico/pico-sdk/src/common/boot_uf2/CMakeLists.txt"
+  "C:/Pico/pico-sdk/tools/elf2uf2/CMakeLists.txt"
   "C:/Program Files/CMake/share/cmake-3.25/Modules/CMakeCCompiler.cmake.in"
   "C:/Program Files/CMake/share/cmake-3.25/Modules/CMakeCCompilerABI.c"
   "C:/Program Files/CMake/share/cmake-3.25/Modules/CMakeCInformation.cmake"

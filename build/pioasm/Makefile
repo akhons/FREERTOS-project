@@ -49,7 +49,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = C:\Pico\pico-sdk\tools\pioasm
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Pico\rp2040-freertos-project\build\pioasm
+CMAKE_BINARY_DIR = C:\Pico\FreeRTOS-Project\build\pioasm
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -76,9 +76,9 @@ rebuild_cache\fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Pico\rp2040-freertos-project\build\pioasm\CMakeFiles C:\Pico\rp2040-freertos-project\build\pioasm\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Pico\FreeRTOS-Project\build\pioasm\CMakeFiles C:\Pico\FreeRTOS-Project\build\pioasm\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Pico\rp2040-freertos-project\build\pioasm\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Pico\FreeRTOS-Project\build\pioasm\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
