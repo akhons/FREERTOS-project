@@ -166,7 +166,7 @@ C:/Pico/FreeRTOS-Project/build/pico-sdk/docs/CMakeFiles/rebuild_cache.dir
 C:/Pico/FreeRTOS-Project/build/freertos/CMakeFiles/freertos.dir
 C:/Pico/FreeRTOS-Project/build/freertos/CMakeFiles/edit_cache.dir
 C:/Pico/FreeRTOS-Project/build/freertos/CMakeFiles/rebuild_cache.dir
-C:/Pico/FreeRTOS-Project/build/ProjectFiles/CMakeFiles/rp2040-freertos-project.dir
+C:/Pico/FreeRTOS-Project/build/ProjectFiles/CMakeFiles/FreeRTOS-Project.dir
 C:/Pico/FreeRTOS-Project/build/ProjectFiles/CMakeFiles/ELF2UF2Build.dir
 C:/Pico/FreeRTOS-Project/build/ProjectFiles/CMakeFiles/edit_cache.dir
 C:/Pico/FreeRTOS-Project/build/ProjectFiles/CMakeFiles/rebuild_cache.dir

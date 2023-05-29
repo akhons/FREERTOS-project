@@ -184,17 +184,17 @@ freertos\fast:
 .PHONY : freertos\fast
 
 #=============================================================================
-# Target rules for targets named rp2040-freertos-project
+# Target rules for targets named FreeRTOS-Project
 
 # Build rule for target.
-rp2040-freertos-project: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) rp2040-freertos-project
-.PHONY : rp2040-freertos-project
+FreeRTOS-Project: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) FreeRTOS-Project
+.PHONY : FreeRTOS-Project
 
 # fast build rule for target.
-rp2040-freertos-project\fast:
-	$(MAKE) $(MAKESILENT) -f ProjectFiles\CMakeFiles\rp2040-freertos-project.dir\build.make /nologo -$(MAKEFLAGS) ProjectFiles\CMakeFiles\rp2040-freertos-project.dir\build
-.PHONY : rp2040-freertos-project\fast
+FreeRTOS-Project\fast:
+	$(MAKE) $(MAKESILENT) -f ProjectFiles\CMakeFiles\FreeRTOS-Project.dir\build.make /nologo -$(MAKEFLAGS) ProjectFiles\CMakeFiles\FreeRTOS-Project.dir\build
+.PHONY : FreeRTOS-Project\fast
 
 #=============================================================================
 # Target rules for targets named ELF2UF2Build
@@ -222,9 +222,9 @@ help:
 	@echo ... bs2_default_bin
 	@echo ... bs2_default_padded_checksummed_asm
 	@echo ... cyw43_driver_picow_cyw43_bus_pio_spi_pio_h
+	@echo ... FreeRTOS-Project
 	@echo ... bs2_default
 	@echo ... freertos
-	@echo ... rp2040-freertos-project
 .PHONY : help
 
 
